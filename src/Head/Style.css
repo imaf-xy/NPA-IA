@@ -1,0 +1,52 @@
+
+.img1{
+    
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #BF382C;
+}
+.capa{
+    height: auto;
+    width: auto;   
+    overflow: scroll;
+    
+    
+}
+
+.capa figcaption1 {
+    position: absolute;
+
+     width: 448px;
+     height: 44px;
+     left: 157px;
+     top: 468px;
+
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 44px;
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      text-align: justify;
+
+      color: #3DF2E0;
+  }
+  .capa figcaption2{
+    position: absolute;
+
+width: 448px;
+height: 64px;
+left: 157px;
+top: 512px;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+text-align: justify;
+
+color: #FFFFFF;
+  }
+
