@@ -8,7 +8,7 @@
 .capa{
     height: auto;
     width: auto;   
-    overflow: scroll;
+    
     
     
 }
@@ -49,4 +49,14 @@ text-align: justify;
 
 color: #FFFFFF;
   }
+.Telas{
+    width: 100vw;
+    height: 100vh;
+}
+.pag{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
 
