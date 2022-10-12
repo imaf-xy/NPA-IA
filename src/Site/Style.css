@@ -1,21 +1,19 @@
-
+/*desktop-1*/
 .img1{
     
     max-height: 100%;
     max-width: 100%;
     background-color: #BF382C;
 }
+
 .capa{
     height: auto;
     width: auto;   
-    
-    
-    
+
 }
 
 .capa figcaption1 {
     position: absolute;
-
      width: 448px;
      height: 44px;
      left: 157px;
@@ -32,8 +30,7 @@
       color: #3DF2E0;
   }
   .capa figcaption2{
-    position: absolute;
-
+position: absolute;
 width: 448px;
 height: 64px;
 left: 157px;
@@ -49,14 +46,210 @@ text-align: justify;
 
 color: #FFFFFF;
   }
+/*desktop-2,3,4*/
 .Telas{
-    width: 100vw;
+    width: 98.9vw;
     height: 100vh;
 }
+
 .pag{
-    width: 100vw;
-    height: 80vh;
+    width: 98.9vw;
+    height: 1024px;
     display: flex;
-    align-items: center;
+    align-items:flex-start
+}
+/*desktop-3*/
+.a1{
+    position: relative;
+    right:120px;
+    
+    
+font-family: 'Telex', sans-serif;
+font-style: normal;
+font-size: 30px;
+
+line-height: 116px;
+
+color: #F2522E;
+}
+.imgI{
+position: relative;
+
+border-style: groove;
+border: transparent;
+
+width: 450px;
+height: 340px;
+right: 600px;
+top: 188px;
+
+background: #F2522E;
+}
+/*desktop-2*/
+.b2{
+    position: relative;
+    right:120px;
+    font-size: 30px;
+    
+font-family: 'Telex', sans-serif;
+font-style: normal;
+
+
+line-height: 116px;
+
+color: #F2522E;
 }
 
+.imgP{
+    position: relative;
+    
+    border-style: groove;
+    border: transparent;
+    
+    width: 450px;
+    height: 340px;
+    right: 700px;
+    top: 188px;
+    
+    background: #F2522E;
+    }
+/*desktop-4*/
+.c3{
+    position: relative;
+    right:120px;
+    
+    
+font-family: 'Telex', sans-serif;
+font-style: normal;
+font-size: 30px;
+
+line-height: 116px;
+
+color: #F2522E;
+}
+
+.imgD{
+    position: relative;
+    
+    border-style: groove;
+    border: transparent;
+    
+    width: 450px;
+    height: 340px;
+    right: 600px;
+    top: 188px;
+    
+    background: #F2522E;
+    }
+/*desktop-3*/
+.text1{
+        position: relative;
+        width: 450px;
+        height: 265px;
+        right: 570px;
+        top: 200px;
+        
+        font-family: 'Telex', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+        
+        color: #000000;
+        }
+    /*desktop-2*/
+        .text2{
+            position: relative;
+            width: 450px;
+            height: 265px;
+            right: 670px;
+            top: 200px;
+            
+            font-family: 'Telex', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: justify;
+            
+            color: #000000;
+            }
+            /*desktop-4*/
+            .text3{
+                position: relative;
+                width: 450px;
+                height: 265px;
+                right: 570px;
+                top: 200px;
+                
+                font-family: 'Telex', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: justify;
+                
+                color: #000000;
+                }
+/*desktop-5*/
+.Projeto{
+position: relative;
+width: 98.9vw;
+height: 1024px;
+
+background: #F2522E;
+}
+
+.Titulo{
+position: absolute;
+width: 322px;
+height: 116px;
+left: 500px;
+top: 20px;
+
+font-family: 'Telex', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+
+text-align: justify;
+
+color: #81B69D;
+}
+
+.img2{
+border-style: groove;
+border: transparent;
+position: absolute;
+width: 1280px;
+height: 680px;
+left: calc(50% - 1280px/2);
+top: 199px;
+
+background: #3DF2E0;
+}
+/*desktop-6*/
+.Time{
+position: relative;
+width: 98.9vw;
+height: 1024px;
+
+background: #FFFFFF;
+}
+
+.Ntime{
+position: absolute;
+width: 610px;
+height: 116px;
+left: 340px;
+top: 17px;
+
+font-family: 'Telex', sans-serif;
+
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+
+text-align: justify;
+
+color: #81B69D;
+}
