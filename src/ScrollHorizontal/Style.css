@@ -27,6 +27,9 @@ background: #F2522E;
 }
 
 @media screen and (max-width: 500px){
+    .flex{
+        flex-direction: row;
+    }
     .imgI{
         height: 180px;
         

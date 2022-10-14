@@ -14,7 +14,7 @@
 }
 .P1 {
     position:absolute;
-     width: 448px;
+     width: 100%;
      height: 44px;
      left: 157px;
      top: 440px;
@@ -79,16 +79,16 @@ color: #FFFFFF;
 .Ntime{
 font-family: 'Telex', sans-serif;
 font-weight: 400;
-font-size: 96px;
-line-height: 116px;
-text-align: justify;
+font-size: 180%;
+line-height: 110%;
+text-align: center;
 color: #81B69D;
 }
 
 @media screen and (max-width: 500px) {
     .P1 {
         position:absolute;
-         width: 448px;
+        width: 380px;
          height: 44px;
          left: 60px;
          top: 100px;
@@ -115,5 +115,34 @@ color: #81B69D;
             height: 60%;
             background: #3DF2E0;
         }
-}
- 
+        .Footer{
+            background-color: #0889A6;
+            border-style: dashed;
+            border-color: transparent;
+        }
+        .text{
+            font-family: 'Telex', sans-serif;
+            position: relative;
+            padding-left: 8%;
+            text-align: left;
+            
+            
+        }
+        .B{
+            width: 22%;
+            border-style: groove;
+            border: transparent;
+            font-size: small;
+            overflow-wrap: break-word;
+        }
+        .Q{
+            float:right;
+            right: 20%;
+        }
+        .link{
+            font-size: small;
+            color: #000;
+        }
+        
+        
+    }
