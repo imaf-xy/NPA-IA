@@ -52,11 +52,12 @@ function Site() {
 
             <div className="Time">
                 <h2 className="Ntime">NOSSO TIME</h2>
+                <img className="img2" src="" alt="" />
             </div>
 
             <div className="Footer">
 
-            <p className="text Q">Quem Somos <br/> <a className="link" href="https://www.instagram.com/esdras_albino/" target="_blank">esdras_albino</a> <br/> <a className="link" href="https://www.instagram.com/bezerra_filipe/" target="_blank">bezerra_filipe</a> <br/> <a className="link" href="https://www.instagram.com/igormatias1307/" target="_blank">igormatias1307</a></p>
+            <p className="text Q">Quem Somos <br/> <a className="link" href="https://www.instagram.com/esdras_albino/" target="_blank">esdras_albino</a> <br/> <a className="link" href="https://www.instagram.com/bezerra_filipe/" target="_blank">bezerra_filipe</a> <br/> <a className="link" href="https://www.instagram.com/igormatias1307/" target="_blank">igormatias1307</a> <br/> <a className="link" href="https://www.instagram.com/ahnacaf_leahpar/?next=%" target="_blank">ahnacaf_leahpar</a></p>
         
               <p className="text S">Sobre Nós</p>
               

@@ -14,13 +14,13 @@
 }
 .P1 {
     position:absolute;
-     width: 100%;
+     width: 80%;
      height: 44px;
      left: 157px;
      top: 440px;
 
       font-weight: 400;
-      font-size: clamp(1.5em, 1em + 1.5vw, 2.5em);
+      font-size: 250%;
       line-height: 44px;
 
       font-family: 'Inter', sans-serif;
@@ -79,12 +79,48 @@ color: #FFFFFF;
 .Ntime{
 font-family: 'Telex', sans-serif;
 font-weight: 400;
-font-size: 180%;
+font-size: 200%;
 line-height: 110%;
 text-align: center;
 color: #81B69D;
 }
 
+.Footer{
+    background-color: #0889A6;
+    border-style: dashed;
+    height:140px;
+    border: transparent;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.text{
+    padding-top: 1%;
+    font-family: 'Telex', sans-serif;
+    position: relative;
+    padding-left: 8%;
+    text-align: left;
+    
+    
+}
+.B{
+    width: 18%;
+    border-style: groove;
+    border: transparent;
+    font-size: small;
+    overflow-wrap: break-word;
+    padding-top: 0.25%;
+    
+}
+.Q{
+    float:right;
+    right: 20%;
+    
+}
+.link{
+    font-size: small;
+    color: #000;
+    
+}
 @media screen and (max-width: 500px) {
     .P1 {
         position:absolute;
@@ -115,34 +151,5 @@ color: #81B69D;
             height: 60%;
             background: #3DF2E0;
         }
-        .Footer{
-            background-color: #0889A6;
-            border-style: dashed;
-            border-color: transparent;
-        }
-        .text{
-            font-family: 'Telex', sans-serif;
-            position: relative;
-            padding-left: 8%;
-            text-align: left;
-            
-            
-        }
-        .B{
-            width: 22%;
-            border-style: groove;
-            border: transparent;
-            font-size: small;
-            overflow-wrap: break-word;
-        }
-        .Q{
-            float:right;
-            right: 20%;
-        }
-        .link{
-            font-size: small;
-            color: #000;
-        }
-        
         
     }
